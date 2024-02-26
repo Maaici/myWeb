@@ -1,6 +1,7 @@
-# Vue 3 + Vite
+# 个人网站前端代码
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+自己给自己弄一个网站，主要平时写写东西，分享所学所想，抑或是分享生活中的琐事与灵光乍现的时刻。
+虽然有很多现成的模板，部署晔很方便，但是给自己的东西，一定要特别一点。
 
 ## Recommended IDE Setup
 
