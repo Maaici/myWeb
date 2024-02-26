@@ -1,5 +1,6 @@
 <template lang="">
-    <div class="main-content">
+    <div class="mybody">
+        <div class="main-content">
         <!-- <div class="logo"></div> -->
         <div class="introduction">
             <div class="intro-title">你好,我是 Maaici.</div>
@@ -9,6 +10,7 @@
             <div class="transparent-btn" @click="goBlog">READ MORE</div>
         </div>
     </div>
+</div>
 </template>
 <script>
 
@@ -21,6 +23,20 @@
     }
 </script>
 <style scoped>
+    .mybody {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
     /* .logo{
         margin: 0 auto;
         width: 180px;
