@@ -17,14 +17,14 @@
 export default {
     props: {
         data: "",
-        menus: []
+        menus: [{}]
     },
 }
 </script>
 <style scoped>
 .head-content {
+    font-family:'ZoomlaWenzhengming-A064';
     padding: 50px 0;
-    background-color: #0d0c0f;
     /* height: 100px; */
 }
 
@@ -37,7 +37,8 @@ export default {
 }
 
 .head-title {
-    font-size: 2.4rem;
+    /* font-family:'ZoomlaWenzhengming-A064'; */
+    font-size: 3.6rem;
     font-weight: 600;
     margin-bottom: 1rem;
 }
@@ -51,7 +52,7 @@ export default {
     padding: .5rem 1rem;
     font-size: 1.1rem;
     cursor: pointer;
-    color: #8d8d8d;
+    color: #c8c8c8;
 }
 
 .menu-item:hover {

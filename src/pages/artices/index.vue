@@ -1,6 +1,6 @@
 <template lang="">
     <div class="main-content">
-        <m-header :data="title" :menus = "menus"></m-header>
+        <m-header :data="title" :menus = "menuList"></m-header>
     </div>
 </template>
 <script>
@@ -9,7 +9,7 @@ export default {
     data() {
         return {
             title: "瀚海拾贝",
-            menus: [{
+            menuList: [{
                 id: "1",
                 name: "About",
                 pat: "",
@@ -48,6 +48,9 @@ export default {
     }
 }
 </script>
+
 <style scoped>
-.main-content {}
+.main-content {
+    background-image: url("../../assets/images/home_bg.jpg");
+}
 </style>

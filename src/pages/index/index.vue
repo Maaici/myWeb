@@ -3,7 +3,7 @@
     <div class="main-content">
       <!-- <div class="logo"></div> -->
       <div class="introduction">
-        <div class="intro-title">Hi,I am Maaici.</div>
+        <div class="intro-title"><div>Hi,I am Maaici.</div></div>
         <div class="intro-content">If you love something, do that thing!</div>
       </div>
       <div class="btn-content">
@@ -31,6 +31,7 @@ export default {
 }
 
 .main-content {
+    font-family:'ZoomlaWenzhengming-A064';
     margin-top: 25vh;
 }
 
@@ -44,7 +45,13 @@ export default {
 .intro-title {
     font-size: 4rem;
     font-weight: 600;
-    color: #999999;
+    color: #ffffff;
+    
+}
+.intro-title > div{
+    background-color: rgb(50, 65, 236);
+    width: 500px;
+    margin: 0 auto;
 }
 
 .intro-content {
@@ -65,10 +72,10 @@ export default {
     width: 15rem;
     line-height: 3rem;
     margin: 0 auto;
-    color: #999999;
+    color: #ed7777;
 }
 
 .transparent-btn:hover {
-    color: #ffffff;
+    color: #f05f5f;
 }
 </style>
