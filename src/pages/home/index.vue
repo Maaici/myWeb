@@ -1,7 +1,13 @@
 <template lang="">
     <div class="main-content">
-        <m-header :data="title" :menus = "menuList"></m-header>
+        <div class="main-head">
+            <m-header :data="title" :menus = "menuList"></m-header>
+        </div>
+        <div class="main-area">
+        <router-view></router-view>
     </div>
+    </div>
+    
 </template>
 <script>
 import header from '../../components/header.vue';
@@ -50,7 +56,15 @@ export default {
 </script>
 
 <style scoped>
-.main-content {
+.main-head {
     background-image: url("../../assets/images/home_bg.jpg");
+    background-size: cover;
+}
+
+.main-area {
+    max-width: 1100px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 1rem;
 }
 </style>

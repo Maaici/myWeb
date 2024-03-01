@@ -16,14 +16,14 @@
 export default {
     methods: {
         goBlog() {
-            this.$router.push("/blog");
+            this.$router.push("/");
         },
     },
 };
 </script>
 <style scoped>
 .mybody {
-    max-width: 1280px;
+    max-width: 1100;
     min-width: 320px;
     margin: 0 auto;
     padding: 2rem;
@@ -31,7 +31,7 @@ export default {
 }
 
 .main-content {
-    font-family:'ZoomlaWenzhengming-A064';
+    font-family: 'ZoomlaWenzhengming-A064';
     margin-top: 25vh;
 }
 
@@ -46,10 +46,11 @@ export default {
     font-size: 4rem;
     font-weight: 600;
     color: #ffffff;
-    
+
 }
-.intro-title > div{
-    background-color: rgb(50, 65, 236);
+
+.intro-title>div {
+    background-color: rgb(50, 65, 236, 0.15);
     width: 500px;
     margin: 0 auto;
 }

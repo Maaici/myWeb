@@ -5,7 +5,7 @@
                 {{ data }}
             </div>
             <div class="head-menu">
-                <div class="menu-item" v-for="item in menus " v-bind:key="item.id">
+                <div class="menu-item" v-for="item in menus " v-bind:key="item.id" @click="goPage(item.name)">
                     {{ item.name }}
                 </div>
             </div>
@@ -19,17 +19,22 @@ export default {
         data: "",
         menus: [{}]
     },
+    methods: {
+        goPage(path) {
+            this.$router.push("/" + path);
+        }
+    }
 }
 </script>
 <style scoped>
 .head-content {
-    font-family:'ZoomlaWenzhengming-A064';
-    padding: 50px 0;
+    font-family: 'ZoomlaWenzhengming-A064';
+    padding: 10px 0;
     /* height: 100px; */
 }
 
 .main-content {
-    max-width: 1280px;
+    max-width: 1100px;
     min-width: 320px;
     margin: 0 auto;
     padding: 2rem;
@@ -38,7 +43,7 @@ export default {
 
 .head-title {
     /* font-family:'ZoomlaWenzhengming-A064'; */
-    font-size: 3.6rem;
+    font-size: 4.2rem;
     font-weight: 600;
     margin-bottom: 1rem;
 }
@@ -50,7 +55,7 @@ export default {
 
 .menu-item {
     padding: .5rem 1rem;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     cursor: pointer;
     color: #c8c8c8;
 }
