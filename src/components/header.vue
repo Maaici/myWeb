@@ -5,26 +5,29 @@
                 {{ data }}
             </div>
             <div class="head-menu">
-                <div class="menu-item" v-for="item in menus " v-bind:key="item.id" @click="goPage(item.name)">
+                <div class="menu_item" :class="{menu_checked: '/'+item.name == checked  }" v-for="item in menus " v-bind:key="item.id" @click="goPage(item.name)">
                     {{ item.name }}
                 </div>
             </div>
         </div>
-
     </div>
 </template>
 <script>
-export default {
-    props: {
-        data: "",
-        menus: [{}]
-    },
-    methods: {
-        goPage(path) {
-            this.$router.push("/" + path);
-        }
+    export default {
+        props: {
+            data: "",
+            menus: [{}],
+            checked: '/'
+        },
+        mounted() {
+        },
+        methods: {
+            goPage(path) {
+                this.$router.push("/" + path);
+            },
+        },
+        
     }
-}
 </script>
 <style scoped>
 .head-content {
@@ -53,14 +56,19 @@ export default {
     justify-content: center;
 }
 
-.menu-item {
+.menu_item {
     padding: .5rem 1rem;
     font-size: 1.4rem;
     cursor: pointer;
     color: #c8c8c8;
 }
 
-.menu-item:hover {
+.menu_checked{
+    text-decoration:underline;
+    color:#ffffff;
+}
+
+.menu_item:hover {
     text-decoration: underline;
     color: #ffffff;
 }

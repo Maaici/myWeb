@@ -4,7 +4,7 @@ const route = createRouter({
   routes: [
     {
       name: "index",
-      path: "/index",
+      path: "/maaici",
       component: () => import("../pages/index/index.vue"),
       meta: {
         title: "Maici-首页",
@@ -19,11 +19,11 @@ const route = createRouter({
       },
       children: [
         {
-          name: "about",
-          path: "/",
-          component: () => import("../pages/home/about.vue"),
+          name: "default",
+          path: "",
+          component: () => import("../pages/home/blog.vue"),
           meta: {
-            title: "about",
+            title: "blog",
           },
         },
         {

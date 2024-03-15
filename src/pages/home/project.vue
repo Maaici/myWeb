@@ -1,6 +1,6 @@
 <template>
     <div>
-        <H1>project</H1>
+        <h1>project</h1>
     </div>
 </template>
 <script>
