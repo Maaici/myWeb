@@ -1,0 +1,1 @@
+import{_ as e,c as o,o as t,a as c}from"./index-BOJdmiFA.js";const s={},n=c("h1",null,"project",-1),r=[n];function a(_,p,d,l,i,f){return t(),o("div",null,r)}const h=e(s,[["render",a]]);export{h as default};
