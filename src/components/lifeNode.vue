@@ -25,21 +25,20 @@ export default {
 }
 
 .title-text {
-
     word-wrap: break-word;
     color: rgb(226, 226, 226);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 600;
 }
 
 .time-text {
     color: rgb(253, 116, 125);
-    font-size: 1rem;
+    /* font-size: 1rem; */
     padding: 0.1rem;
 }
 
 .line-2 {
-    font-size: 1rem;
+    /* font-size: 1rem; */
     color: rgb(208, 208, 208);
 }
 </style>

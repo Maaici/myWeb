@@ -13,18 +13,28 @@
                             <link-item :link="link"></link-item>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>
         <div class="right-content">
-            <div class="line-1"></div>
+            <div class="line-1">
+                <div class="number-data">
+                    <div class="number-text">2545215</div>
+                    <div>总访问</div>
+                </div>
+                <div class="number-data">
+                    <div class="number-text">89</div>
+                    <div>文章数</div>
+                </div>
+                <div class="number-data">
+                    <div class="number-text">1258</div>
+                    <div>点赞数</div>
+                </div>
+            </div>
             <div class="line-2">
                 <div v-for="lnode in lnodes" :key="lnode.id">
                     <life-node :lnode="lnode"></life-node>
                 </div>
-
             </div>
         </div>
     </div>
@@ -153,7 +163,22 @@ export default {
 
 .line-1 {
     background-color: rgb(0, 0, 0, .2);
-    height: 100px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.number-data {
+    text-align: center;
+    flex: 1;
+    min-width: 100px;
+}
+
+.number-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #5dc5f9;
 }
 
 .line-2 {

@@ -74,6 +74,7 @@ export default {
 <style scoped>
 .main-head {
     background-image: url("../../assets/images/home_bg.jpg");
+    min-width: 300px;
     background-size: cover;
 }
 
