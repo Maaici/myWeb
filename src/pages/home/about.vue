@@ -46,7 +46,7 @@
         data() {
             return {
                 userInfo: {
-                    name: '隔壁王菇凉的老公',
+                    name: 'Maaici(麻糍)',
                     photoPath: '',
                     birthDay: '1992-06-24',
                     codeYears: 8,
@@ -233,7 +233,6 @@
     .desc-text {
         padding: 10px 0;
         color: #e8e8e8;
-        /* font-family: 'ZoomlaWenzhengming-A064'; */
     }
 
     .personal-info:hover {

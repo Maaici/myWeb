@@ -65,7 +65,8 @@ export default {
 </script>
 <style scoped>
 .head-content {
-    font-family: 'ZoomlaWenzhengming-A064';
+    font-family: 'ali-light';
+    font-weight: 800;
     padding: 10px 0;
     /* height: 100px; */
 }
@@ -79,9 +80,9 @@ export default {
 }
 
 .head-title {
-    /* font-family:'ZoomlaWenzhengming-A064'; */
-    font-size: 4.2rem;
-    font-weight: 600;
+    font-family: 'dingding-Regular';
+    font-size: 3.2rem;
+    font-weight: 400;
     margin-bottom: 1rem;
 }
 

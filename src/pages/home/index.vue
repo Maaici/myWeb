@@ -14,7 +14,7 @@ import header from '../../components/header.vue';
 export default {
     data() {
         return {
-            title: "瀚海拾贝",
+            title: "麻糍笔记",
             menuList: [{
                 id: "1",
                 name: "About",

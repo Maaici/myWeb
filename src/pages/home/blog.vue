@@ -101,8 +101,11 @@ export default {
                 tags: ["设计模式", "架构设计"]
             },
             ]
-        }
-    }, components: {
+            ,
+        windowHeight:0
+    }
+    }, 
+    components: {
         'article-item': articleItem
     }
 }
@@ -129,6 +132,11 @@ export default {
 
 .bg-color {
     background-color: rgb(0, 0, 0, 0.2);
+}
+
+.type-content{
+    position: sticky;
+    top: -550px;
 }
 
 /* .article-item:hover {
