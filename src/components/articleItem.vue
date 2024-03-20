@@ -66,6 +66,7 @@ export default {
 }
 
 .article-info {
+    margin-top: 5px;
     display: flex;
     justify-content: space-between;
     color: #85a1b1;

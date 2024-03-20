@@ -9,13 +9,16 @@
         </div>
         <div class="right-content">
             <div class="type-content bg-color">
-                faadfsadfsad
+                <classification :tags="tags"></classification>
+                <article-tags :tags="tags"></article-tags>
             </div>
         </div>
     </div>
 </template>
 <script>
 import articleItem from '../../components/articleItem.vue';
+import tags from '../../components/tags.vue';
+import classification from '../../components/classification.vue'
 export default {
     data() {
         return {
@@ -102,11 +105,43 @@ export default {
             },
             ]
             ,
-        windowHeight:0
-    }
-    }, 
+            windowHeight: 0,
+            tags: [
+                {
+                    tagName: '.net',
+                    id: 2
+                }, {
+                    tagName: 'Java',
+                    id: 1
+                }, {
+                    tagName: '人生感悟',
+                    id: 1
+                }, {
+                    tagName: 'sql server',
+                    id: 1
+                }, {
+                    tagName: 'sql',
+                    id: 1
+                }, {
+                    tagName: 'JavaScript',
+                    id: 1
+                }, {
+                    tagName: 'Vue',
+                    id: 1
+                }, {
+                    tagName: 'webApi',
+                    id: 1
+                }, {
+                    tagName: '英语',
+                    id: 1
+                }
+            ]
+        }
+    },
     components: {
-        'article-item': articleItem
+        'article-item': articleItem,
+        'article-tags': tags,
+        'classification': classification
     }
 }
 </script>
@@ -134,7 +169,7 @@ export default {
     background-color: rgb(0, 0, 0, 0.2);
 }
 
-.type-content{
+.type-content {
     position: sticky;
     top: -550px;
 }

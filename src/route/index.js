@@ -58,6 +58,14 @@ const route = createRouter({
             title: "list100",
           },
         },
+        {
+          name: "friends",
+          path: "/friends",
+          component: () => import("../pages/home/friends.vue"),
+          meta: {
+            title: "friends",
+          },
+        },
       ],
     },
   ],

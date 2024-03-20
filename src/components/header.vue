@@ -96,7 +96,7 @@ export default {
     top: 1rem;
     left: 1rem;
     font-size: 1.1rem;
-    font-family: '';
+    font-family: 'ali-light';
     padding: 5px 10px;
 
 }

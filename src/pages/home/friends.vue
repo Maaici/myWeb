@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>这辈子要做的事情</h1>
+        <h1>乱七八糟的网站收藏夹</h1>
     </div>
 </template>
 <script>
