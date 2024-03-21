@@ -71,7 +71,7 @@ export default {
     margin: 5px 3px;
     padding: 1px 5px;
     border-radius: 2px;
-    font-size: 14px;
+    font-size: 12px;
     cursor: pointer;
 }
 

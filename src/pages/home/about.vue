@@ -154,7 +154,7 @@
                 } else {
                     this.stickyTop = -10 - h + 'px'
                 }
-                console.log(pHeight, wHeight, this.stickyTop)
+                //console.log(pHeight, wHeight, this.stickyTop)
             },
 
             // //防抖
@@ -200,6 +200,7 @@
     }
 
     .personal-info {
+        border-radius: 5px;
         position: sticky;
         padding-top: 30px;
         background-color: rgb(0, 0, 0, .2);
@@ -240,6 +241,7 @@
     }
 
     .line-1 {
+        border-radius: 5px;
         background-color: rgb(0, 0, 0, .2);
         display: flex;
         flex-flow: wrap;
@@ -260,6 +262,7 @@
     }
 
     .line-2 {
+        border-radius: 5px;
         margin-top: 10px;
         background-color: rgb(39, 39, 39);
         min-height: 800px;

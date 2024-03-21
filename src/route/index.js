@@ -65,6 +65,13 @@ const route = createRouter({
           meta: {
             title: "friends",
           },
+        }, {
+          name: "article",
+          path: "/article",
+          component: () => import("../pages/home/article.vue"),
+          meta: {
+            title: "文章",
+          },
         },
       ],
     },

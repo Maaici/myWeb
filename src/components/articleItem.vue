@@ -21,7 +21,7 @@ export default {
     },
     methods: {
         goPage(id) {
-            this.$router.push("/article/" + id);
+            this.$router.push("/article?id=" + id);
         }
     },
 }
