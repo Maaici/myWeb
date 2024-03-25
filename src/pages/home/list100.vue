@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>这辈子要做的事情</h1>
+        <h3>短期或长期的计划清单</h3>
     </div>
 </template>
 <script>
