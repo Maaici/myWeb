@@ -1,13 +1,18 @@
 # 个人网站前端代码
 
 自己的个人网站，主要平时写写东西，分享所学所想，抑或是分享生活中的琐事与灵光乍现的时刻。
-虽然有很多现成的模板，但是给自己的东西，一定要特别一点。
+虽然有很多现成的模板，但是给自己的东西，一定要特别一点,最主要是这个过程中会出现一些问题，暴露一些能力上的不足，都能促使我更好的进步。
 
-2022-03-16 首页基本定型 菜单根据窗口大小自适应
-![image](https://github.com/Maaici/myWeb/assets/39691811/326db72d-0d97-4956-8f56-da4ce8144bf4)
-![image](https://github.com/Maaici/myWeb/assets/39691811/aea17e95-6ab8-468f-9a3b-2b712c064bd4)
+2022-03-26 确定了基本的样式，主要以简洁为主，同时要要适配移动端。
+![image](https://github.com/Maaici/myWeb/assets/39691811/117a9f86-a1b6-44b2-a95f-2ee0b142d38a)
+![image](https://github.com/Maaici/myWeb/assets/39691811/5130fbca-ed61-4d74-be9a-03b02988d45f)
+![image](https://github.com/Maaici/myWeb/assets/39691811/b8b2d314-b65d-4ca6-b06a-ad3ad64adc9c)
 
 
-## Recommended IDE Setup
+## 后续要继续完善或者考虑的地方
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+1. vue对seo有着天然缺陷，这也是我前期进行选型的失误，后续我将通过服务器渲染（ssr）进行优化
+2. 由于赶项目，没有考虑到后面需要进行主题切换，需要进行一下小的重构
+3. 用户登录
+4. 点赞和评论
+5. ...
